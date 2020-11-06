@@ -1253,7 +1253,7 @@ int background_ncdm_distribution(
 
        //  printf("alpha %f, %f \n", alpha, y_avg);
        // * f0 = 1./(q*q)*pow(q/3.15,11.0)*exp(-(11.0+1.0)*q/3.15);
-      *f0 = 1.0/(q*q)*pow(q/y_avg,alpha)*exp(-(alpha+1.0)*q/y_avg);
+      *f0 = 1.0/(q*q)*pow(q/y_avg,alpha)*exp(-(1.0+alpha)*q/y_avg);
 
      }
 
