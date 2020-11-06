@@ -287,9 +287,7 @@ class_precision_parameter(ur_fluid_approximation,int,ufa_CLASS) /**< method for 
  */
 class_precision_parameter(ur_fluid_trigger_tau_over_tau_k,double,30.0)
 
-// class_precision_parameter(ncdm_fluid_approximation,int,ncdmfa_CLASS) /**< method for non-cold dark matter fluid approximation */
-class_precision_parameter(ncdm_fluid_approximation,int,ncdmfa_none) /**< method for non-cold dark matter fluid approximation */
-
+ class_precision_parameter(ncdm_fluid_approximation,int,ncdmfa_CLASS) /**< method for non-cold dark matter fluid approximation */
 /**
  * when to switch off ncdm (massive neutrinos / non-cold
  * relics) fluid approximation

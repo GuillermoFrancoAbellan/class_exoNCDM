@@ -46,9 +46,13 @@ typedef char FileName[_FILENAMESIZE_];
 
 #define _MAX_IT_ 10000/**< default maximum number of iterations in conditional loops (to avoid infinite loops) */
 
-#define _QUADRATURE_MAX_ 250 /**< maximum allowed number of abssices in quadrature integral estimation */
+// #define _QUADRATURE_MAX_ 250 /**< maximum allowed number of abssices in quadrature integral estimation */
+#define _QUADRATURE_MAX_ 350 /**< maximum allowed number of abssices in quadrature integral estimation */
 
-#define _QUADRATURE_MAX_BG_ 800 /**< maximum allowed number of abssices in quadrature integral estimation */
+
+// #define _QUADRATURE_MAX_BG_ 800 /**< maximum allowed number of abssices in quadrature integral estimation */
+#define _QUADRATURE_MAX_BG_ 900 /**< maximum allowed number of abssices in quadrature integral estimation */
+
 
 #define _fermi_dirac_ 0 /**< GFA: integer associated to fermi_dirac distribution for ncdm species */
 
